@@ -11,7 +11,7 @@ python tprFinderI <mapped-fragments.bed file> <TPR window size> <TPR read depth>
 ```
 
 ### Parameter description:
-```
+
 <mapped-fragments.bed file>: A mapped fragment bed file can be generated from alignment files in sam format using samtools and bedtools.
 
 <TPR window size>: A desired size of the TPR window. We found TPRs are usually 40bp in width and are often clustered. This parameter can be increased or decreased to find longer or shorter sized TPRs.
@@ -23,7 +23,7 @@ python tprFinderI <mapped-fragments.bed file> <TPR window size> <TPR read depth>
 <maximum fragment size>: This parameter allows exclusion of excessively long PRO-Seq reads. 
 
 <chromosome sizes file>: tprFinder requires a chromosome sizes file. This file can be obtained using [fetchChromSizes](http://hgdownload.soe.ucsc.edu/admin/exe/linux.x86_64/) utility.
-```
+
 
 Note: Download and put tprFinderI and tprFinder programs under one folder.
 
