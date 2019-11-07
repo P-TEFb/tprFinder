@@ -24,15 +24,15 @@ TPR read depth:            The minimum amount of reads per TPR. This determinati
                            amount of background signal in your dataset.
 
 minimum average read length: The desired minimum average read length allows 
-                            elimination of TPRs formed exclusively by sequencing artifacts 
-                            and hard to map fragments. We observed TPRs tend to have an 
-                            avearage read length of atleast 30bp.
+                           elimination of TPRs formed exclusively by sequencing artifacts 
+                           and hard to map fragments. We observed TPRs tend to have an 
+                           avearage read length of atleast 30bp.
 
-maximum fragment size:      This parameter allows exclusion of excessively long PRO-Seq reads. 
+maximum fragment size:     This parameter allows exclusion of excessively long PRO-Seq reads. 
 
-chromosome sizes file:      tprFinder requires a chromosome sizes file. This file can be obtained 
-                            using [fetchChromSizes](http://hgdownload.soe.ucsc.edu/admin/exe/linux.x86_64/) 
-                            utility.
+chromosome sizes file:     tprFinder requires a chromosome sizes file. This file can be obtained 
+                           using [fetchChromSizes](http://hgdownload.soe.ucsc.edu/admin/exe/linux.x86_64/) 
+                           utility.
 ```
 
 Note: Download and put tprFinderI and tprFinder programs under one folder.
