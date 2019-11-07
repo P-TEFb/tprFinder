@@ -3,7 +3,7 @@ tprFinder identifies transcription pause regions (TPRs) from PRO-Cap data.
 
 Author: Mrutyunjaya Parida, David Price Lab, UIOWA
 
-Please download and put TPR_F_V2 and TPR_F programs under one folder.
+Please download and put TPR_F_V1 and TPR_F programs under one folder.
 ```
 Please provide these details to run TSR finder properly:
 a) input file to run such as /home/<user>/<folder name>/mapped-fragments.bed.
