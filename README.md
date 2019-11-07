@@ -1,5 +1,5 @@
 # tprFinder
-tprFinder identifies transcription pause regions (TPRs) from PRO-Cap data.
+tprFinder identifies transcription pause regions (TPRs) from PRO-Cap and similar nascent transcript sequencing datasets.
 
 Author: Mrutyunjaya Parida, David Price Lab, UIOWA
 
