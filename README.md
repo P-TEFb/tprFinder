@@ -4,7 +4,7 @@ tprFinder identifies transcription pause regions (TPRs) from PRO-Cap data.
 Author: Mrutyunjaya Parida, David Price Lab, UIOWA
 
 ## Usage:
-tprFinder runs on Python 2.7+ version. The features of this program work the same way as the tsrFinderv2, instead it evaluates every TPR window across the genome for the sum of 3' reads (transcription pause sites) and the average read length. It is intended to be run from the command-line and expects the following syntax:
+tprFinder runs on Python v2.7+. The features of this program work the same way as the tsrFinderv2, instead it evaluates every TPR window across the genome for the sum of 3' reads (transcription pause sites) and the average read length. The tprFinderI is an interface program that runs the actual tprFinder program. It checks for errors in a user's input. If errors are found the tprFinderI program displays the usage example and parameter description prior to exiting the run. Both tprFinder and tprFinderI are intended to be run via a Python v2.7+ interpreter installed on your desired operating system of choice such as Windows, Mac or Linux. The tprFinderI expects the following syntax on a linux command-line interface:
 
 ```
 python tprFinderI <mapped-fragments.bed file> <TPR window size> <TPR read depth> <minimum average read length> <maximum fragment size> <chromosome sizes file>
