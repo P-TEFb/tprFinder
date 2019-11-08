@@ -11,7 +11,7 @@ Both tprFinder and tprFinderI are intended to be run via a Python v2.7+ interpre
 ```
 python tprFinderI <mapped-fragments.bed file> <TPR window size> <TPR read depth> <minimum average read length> <maximum fragment size> <chromosome sizes file>
 ```
-Download and put tprFinderI and tprFinder programs under one folder.
+Maintain the program files under the tsrFinder_dir folder.
 
 ### Parameter description:
 ```
