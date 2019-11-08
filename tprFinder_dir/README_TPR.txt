@@ -11,6 +11,7 @@ description prior to exiting the run.
 tprFinder syntax:
 
 tprFinder <mapped-fragments.bed file> <TPR window size> <TPR read depth> <minimum average read length> <maximum fragment size> <chromosome sizes file>
+
 Example run:               python tprFinderI mapped-fragment.bed 40 20 30 600 hg38.chrom.sizes.txt
 
 Maintain the program files under the tprFinder_dir folder.
