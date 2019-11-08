@@ -25,7 +25,8 @@ TPR window size:           A desired size of the TPR window (an integer). We fou
 TPR read depth:            The minimum amount of reads per TPR (an integer). This determination of 
                            this parameter can vary depending on sequencing depth and the 
                            amount of background signal in your dataset.
-
+For example:
+python tprFinderI mapped-fragment.bed 40 20 30 600 hg38.chrom.sizes.txt
 minimum average read length: The desired minimum average read length (an integer) allows 
                            elimination of TPRs formed exclusively by sequencing artifacts 
                            and hard to map fragments. We observed TPRs tend to have an 
@@ -36,6 +37,8 @@ maximum fragment size:     This parameter (an integer) allows exclusion of exces
 chromosome sizes file:     tprFinder requires a chromosome sizes file. This file can be obtained 
                            using [fetchChromSizes](http://hgdownload.soe.ucsc.edu/admin/exe/linux.x86_64/) 
                            utility.
+                           
+Example run:               python tprFinderI mapped-fragment.bed 40 20 30 600 hg38.chrom.sizes.txt
 ```
 
 ### Output:
