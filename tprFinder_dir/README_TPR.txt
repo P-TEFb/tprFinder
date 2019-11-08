@@ -13,8 +13,7 @@ the tprFinder program is run automatically.
 Both tprFinder and tprFinderI are intended to be run via a Python v2.7+ interpreter installed on your 
 desired operating system of choice such as Windows, Mac or Linux. Additionally, tprFinderI requires 
 the joblib python module installed prior to the tprFinder run. If the module is missing tprFinderI will 
-guide you on installing the module. Finally, tprFinderI expects the following syntax on a linux 
-command-line interface: 
+guide you on installing the module. 
 
 tprFinderI syntax:
 
