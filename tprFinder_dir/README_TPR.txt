@@ -12,7 +12,7 @@ tprFinder syntax:
 
 tprFinder <mapped-fragments.bed file> <TPR window size> <TPR read depth> <minimum average read length> <maximum fragment size> <chromosome sizes file>
 
-Download and put tprFinderI and tprFinder programs under one folder.
+Maintain the program files under the tprFinder_dir folder.
 
 Parameter description:
 
