@@ -43,5 +43,5 @@ chromosome sizes file:     tprFinder requires a chromosome sizes file. This file
 ```
 
 ### Output:
-The final output is a comprehensive tab-delimited text file which contains information about both FW and RV strand TPR boundaries, sum of TPR read lengths, # of TPR reads, strand, the MaxTPS position, # of MaxTPS reads, the average TPS position, MaxTPS-averageTPS, and the standard deviation of the average TPS position.
+The final output is a comprehensive tab-delimited text file which contains information about both FW and RV strand non-overlapping TPR boundaries, sum of TPR read lengths, # of TPR reads, strand, the MaxTPS position, # of MaxTPS reads, the average TPS position, MaxTPS-averageTPS, and the standard deviation of the average TPS position.
 
