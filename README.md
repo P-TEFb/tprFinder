@@ -9,10 +9,13 @@ tprFinder runs on Python v2.7+. The features of this program work the same way a
 Both tprFinder and tprFinderI are intended to be run via a Python v2.7+ interpreter installed on your desired operating system of choice such as Windows, Mac or Linux. Additionally, tprFinderI requires the joblib python module installed prior to the tprFinder run. If the module is missing tprFinderI will guide you on installing the module. Finally, tprFinderI expects the following syntax on a linux command-line interface:
 
 ```
+
 python tprFinderI <mapped-fragments.bed file> <TPR window size> <TPR read depth> <minimum average read length> <maximum fragment size> <chromosome sizes file>
 
 Example run:               python tprFinderI mapped-fragment.bed 40 20 30 600 hg38.chrom.sizes.txt
+
 ```
+
 Maintain the program files under the tprFinder_dir folder.
 
 ### Parameter description:
