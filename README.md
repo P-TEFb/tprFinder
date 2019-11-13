@@ -38,7 +38,7 @@ minimum average read length: The desired minimum average read length (an integer
 
 maximum fragment size:     This parameter (an integer) allows exclusion of excessively long PRO-Seq reads. 
 
-chromosome sizes file:     tprFinder requires a chromosome sizes file. This file can be obtained 
+chromosome sizes file:     tprFinderI requires a chromosome sizes file. This file can be obtained 
                            using [fetchChromSizes](http://hgdownload.soe.ucsc.edu/admin/exe/linux.x86_64/) 
                            utility.
                            
